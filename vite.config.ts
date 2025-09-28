@@ -15,4 +15,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: "/Fork-It_v3", // 👈 IMPORTANT: change 'repo-name' to your GitHub repo name
 }));
